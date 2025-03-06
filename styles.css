@@ -5,7 +5,7 @@ body {
 
 .container-one {
     background-color: #1F2937;
-    padding: 30px 400px;
+    padding: 30px 200px;
 }
 
 .header {
@@ -50,7 +50,7 @@ a {
 #secondary {
     font-size: 18px;
     color: #E5E7Eb;
-    width: 500px;
+    max-width: 500px;
 }
 .sign-up{
     background-color: #3882f6;
