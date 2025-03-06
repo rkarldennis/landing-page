@@ -32,33 +32,141 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .big-font {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
     margin: 0;
 }
-.hero-left{
+
+.hero-left {
     width: 400px;
 }
+
 #secondary {
     font-size: 18px;
     color: #E5E7Eb;
     max-width: 500px;
 }
-.sign-up{
+
+.sign-up {
     background-color: #3882f6;
     border-radius: 10px;
     padding: 10px;
     width: 100px;
 }
-.person{
+
+.person {
     width: 500px;
     height: auto;
+}
+
+.container-two {
+    height: 350px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.random {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.container-three {
+    padding: 10px;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote {
+    text-align: center;
+    max-width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 900;
+}
+.container-four{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.wrap{
+    display: flex;
+    width: 800px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 10px 90px;
+    border-radius: 12px;
+}
+
+.call{
+    font-size: 18px;
+    font-weight: 900;
+    color: #E5E7Eb;
+    margin-bottom: 0;
+}
+.text-sign{
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+.sign-up-bottom{
+    border-radius: 12px;
+    color: #E5E7Eb;
+    background-color: #3882f6;
+    border-color: #E5E7Eb;
+    width: 100px;
+    height: 30px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #E5E7Eb;
 }
